@@ -1,0 +1,14 @@
+bookshelf = []
+
+def book_title(title):
+    bookshelf.append(title)
+    
+while True:
+    book_name = input("όνομα ενός βιβλίου")
+    if book_name == "εξοδος":
+        print("Καλη συνεχεια")
+        break
+    else:
+        book_title(book_name)
+        print("το βιβλίο καταχωρήθηκε επιτυχώς")
+        

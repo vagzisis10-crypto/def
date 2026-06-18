@@ -1,0 +1,5 @@
+def send_alert(user,status = "active"):
+    print(f"Ο χρήστης {user} είναι {status}.")
+    
+send_alert("Nikos")
+send_alert("Eleni", "away")

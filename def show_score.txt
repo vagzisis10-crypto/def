@@ -1,0 +1,5 @@
+def show_score(team,score):
+    print(f"Η ομάδα {team} έχει {score} βαθμούς.")
+    
+show_score("Ολυμπιακό", 3)
+show_score("Παναθηναϊκό", 1)

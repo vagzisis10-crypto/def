@@ -1,0 +1,7 @@
+def check_seats(available_seats):
+    while available_seats > 0 :
+        print(f"{available_seats} available")
+        available_seats = available_seats - 1
+    print("Sold out")
+    
+check_seats(3)

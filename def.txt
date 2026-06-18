@@ -1,0 +1,7 @@
+def make_pizza(product,size):
+    print(f"Απλώνω μια {size} ζύμη.")
+    print(f"Βάζω σάλτσα, τυρί και {product}.")
+    print("Ψήνω στους 180°C.")
+    
+    
+make_pizza("peperoni","big")
